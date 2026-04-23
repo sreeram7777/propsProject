@@ -5,11 +5,10 @@ function Child2({ items }) {
   return (
     <div>
       <div className="item">
-        <img src={items.image} alt="20" />
+        <img src={items.image} />
         <p>{items.title}</p>
         <p>{items.price}</p>
       </div>
-      <button>Order now</button>
     </div>
   );
 }
